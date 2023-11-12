@@ -10,6 +10,8 @@ button {cursor: pointer;}
 
 body {
     font-family: 'Roboto' , sans-serif;
+    color: #2E2F42;
+
 }
 
 .logo {
@@ -48,3 +50,20 @@ body {
 .menu-link:focus {
 color: #404BBF;
 }
+
+/* Section 1 About */
+.section-title {
+    background-color: var(--NAVY-BLUE, #2E2F42);;
+}
+.header1 {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+.button {}
+
+/* Section 2 Team */
