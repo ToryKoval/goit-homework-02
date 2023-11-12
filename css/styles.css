@@ -8,6 +8,10 @@ list-style-type: none;
 
 button {cursor: pointer;}
 
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+
 .logo {
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
@@ -24,10 +28,23 @@ button {cursor: pointer;}
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.16;
         /* 116.667% */
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+
+.menu-link {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.33;
+    /* 150% */
+    letter-spacing: 0.017em;
+}
+
+.menu-link:hover ,
+.menu-link:focus {
+color: #404BBF;
 }
