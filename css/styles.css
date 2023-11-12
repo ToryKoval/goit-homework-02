@@ -20,3 +20,14 @@ button {cursor: pointer;}
         text-transform: uppercase;
         
 }
+.logo-word2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
