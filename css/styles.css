@@ -40,32 +40,31 @@ body {
 
 .menu-item-link:hover ,
 .menu-item-link:focus ,
-.menu-item-link:active {
+{
     color: #404BBF;
 
 }
-.contacts {
+
+/* Address */
+.page-contacts {
     font-style: normal;
 }
-.contacts:hover {
-    color: #404BBF;
-}
+
 .contacts-link {
     color: #434455;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
-.contacts-link:focus
-.contacts-link:active
-.contacts-link:hover {
+
+.contacts-link:hover,
+.contacts-link:active {
     color: #404bbf;
 }
-.contacts-item:hover ,
-.contacts-item:focus {
+
+.contacts-link:focus {
     color: #404bbf;
-}
 
 /* Main */
 
