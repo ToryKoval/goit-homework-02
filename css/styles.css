@@ -47,6 +47,9 @@ body {
 .contacts {
     font-style: normal;
 }
+.contacts:hover {
+    color: #404BBF;
+}
 .contacts-link {
     color: #434455;
         font-size: 16px;
@@ -55,8 +58,9 @@ body {
         letter-spacing: 0.02em;
 }
 .contacts-link:focus
+.contacts-link:active
 .contacts-link:hover {
-    color: #404bbf ;
+    color: #404bbf;
 }
 
 /* Main */
