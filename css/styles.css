@@ -30,22 +30,22 @@ body {
    
 }
 
-.menu-item-link {
-    color: #2E2F42 ;
+.menu-link {
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.menu-item-link:hover ,
-.menu-item-link:focus ,
-{
-    color: #404BBF;
-
+.menu-link:hover,
+.menu-link:active {
+    color: #404bbf;
 }
 
-/* Address */
+.menu-link:focus {
+    color: #404bbf;
+}
 .page-contacts {
     font-style: normal;
 }
@@ -65,6 +65,7 @@ body {
 
 .contacts-link:focus {
     color: #404bbf;
+}
 
 /* Main */
 
