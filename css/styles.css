@@ -30,7 +30,7 @@ body {
    
 }
 
-.menu-link {
+.menu-item-link {
     color: #2E2F42 ;
     font-size: 16px;
     font-weight: 500;
@@ -38,9 +38,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.menu-link:hover ,
-.menu-link:focus {
-color: #404BBF;
+.menu-item-link:hover ,
+.menu-item-link:focus ,
+.menu-item-link:active {
+    color: #404BBF;
+
 }
 .contacts {
     font-style: normal;
@@ -54,7 +56,7 @@ color: #404BBF;
 }
 .contacts-link:focus
 .contacts-link:hover {
-    color: #404bbf;
+    color: #404bbf ;
 }
 
 /* Main */
